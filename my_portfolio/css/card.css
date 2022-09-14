@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+div#card {
+    background-color: wheat;
+    /* max-width: 700px; */
+    /* height: 100vh; */
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex: auto;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#tesla {
+    color: coral;
+}
+
+#content {
+    width: 600px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+
+.read-more {
+    font-size: 1.6rem;
+    opacity: .6;
+}
+
+span#number {
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color:tomato;
+    background-color: #333;
+    padding: 1em 2em;
+    font-size: 1.2rem;
+    font-weight: 700;
+} 
+
+a:hover,
+a:focus {
+    color: #fff;
+    background-color: coral;
+}
+
+div#main-content {
+    padding: 15px;
+}
+
+div#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6em;
+}
+
+@media (min-width:700px) {
+    div#card {
+        flex-direction: row;
+        width: 99%;
+    }
+
+    img {
+        max-width: 500px;
+        height: 100%;
+    }
+
+    #main-content {
+        width: 70%;
+    }
+
+    #footer {
+        padding: 0 2em;
+    }
+
+    #title {
+        font-size: 4rem;
+    }
+
+    #content {
+        font-size: 2rem;
+        width: 85%;
+        padding-left: 2em;
+    }
+
+    .read-more {
+        font-size: 2rem;
+    }
+
+    a {
+        font-size: 1.7rem;
+    }
+}

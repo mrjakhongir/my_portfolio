@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="css/color.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Color Lighten/Darken</h1>
+
+        <label for="input-color">Input (Hex)</label>
+        <input type="text" class="input-color" id="inputColor" placeholder="#000000" value="#d6d5ac"/>
+        
+        <div class="toggle">
+            <p class="toggle-text" id="lightenText">Lighten</p>
+            <div class="toggle-btn" id="toggleBtn">
+                <div class="inner-circle"></div>
+            </div>
+            <p class="toggle-text unselected" id="darkenText">Darken</p>
+        </div>
+
+        <label for="slider" id="sliderText">0%</label>
+        <input type="range" class="slider" id="slider" value="0" min="0" max="100"/>
+
+        <p>Input Color</p>
+        <div class="box" id="hexColor"></div>
+
+        <p id="alteredText">Altered Color</p>
+        <div class="box" id="alteredColor"></div>
+    </div>
+    <script src="Js/color.js"></script>
+</body>
+</html>

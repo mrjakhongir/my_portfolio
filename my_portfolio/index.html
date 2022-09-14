@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet">
+    <title>Jakhongir Portfolio Website</title>
+</head>
+<body>
+    <header>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="toggle navigation"> 
+            <span class="hamburger"></span>
+        </button>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro ">
+            Hi, I am <strong>Jahongir Nusratov</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+        <img src="images/my_photo.jpg" alt="" class="intro__img">
+    </section>
+
+    <!-- My Services  -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-End developer</h3>
+                <p>I have learned HTML, CSS, JS and React in 5 months. I can work 
+                as a junior front-end developer and I am very excited to get my first job.
+                I just need a ggod working atmosphere.</p>
+            </div>
+            <div class="service">
+                <h3>Logo designer</h3>
+                <p>Exept coding I prefer to spend my time to learn UI(User Interface) design.
+                   With my friend we created a bunch of logos for companies. It is a good experience
+                   to know graphik design :).
+                </p>
+            </div>
+            <div class="service">
+                <h3>Excel tables</h3>
+                <p>I started my career as an Accountant. Even now I am working in a building company.
+                    Both of these require Excel knowledge. After learning MsExcel I announced advertizement
+                    in OLX to make interactive, functional tables.
+                </p>
+            </div>
+        </div> <!-- closing services -->
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">front-end developer</p>
+
+        <div class="about-me__body">
+            <p>HI! I am Nusratov Jahongir. I am 26 and I love coding. Since I am new in this atmosphere
+                I need experience and learn more about programming.
+            </p>
+            <p>As I am working in a building company, I do not have time to learn coding
+                in the tutoring centers. Instead I used online courses and you tube as well.
+                A year ago started learn HTML & CSS, a little bit JS of course. But thanks for 
+                Scrimba teachers I hope I become a hireble front-end developer.</p>
+        </div>
+
+        <img src="images/my-photo2.jpg" alt="" class="about__img">
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle section__subtitle--text">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <a href="color.html" target="_blank" class="portfolio__item"><img src="images/color.jpg" alt="" class="portfolio-img"></a>
+            <a href="dice.html" target="_blank" class="portfolio__item"><img src="images/dice.jpg" alt="" class="portfolio-img"></a>
+            <a href="web.html" target="_blank" class="portfolio__item"><img src="images/web.webp" alt="" class="portfolio-img"></a>
+            
+            <a href="card.html" target="_blank" class="portfolio__item"><img src="images/5.jpg" alt="" class="portfolio-img"></a>
+        </div>
+    </section>
+
+    <footer>
+        <a href="mailto:nusratovjahongir@gmail.com" class="footer__link">nusratovjahongir@gmail.com</a>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="#"><img src="images/tg.png" ></a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="#"><img src="images/ins.png" ></a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="#"><img src="images/fc1.png" ></a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="#"><img src="images/gh.png"></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="Js/index.js"></script>
+</body>
+</html>
